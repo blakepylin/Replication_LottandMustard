@@ -1,0 +1,6 @@
+# Replication_LottandMustard
+ This is a replication of the Lott and Mustard (1997) - Crime, Deterrence, and Right-to-Carry Concealed Handguns, a practice from ECO395M: Causal Inference.
+ 
+Abstract:
+ 
+ Civilian gun ownership has always been a center of debate in U.S. politics, and scholars have been working on related issues throughout history. This topic is also what Lott and Mustard were trying to answer in their paper “Crime, Deterrence, and Right-to-Carry Concealed Handguns”. They used the right-to-carry concealed gun law as the treatment to see its effect on 9 different types of crime, and the method they used was two-way fixed effect (TWFE). While TWFE is efficient and has been the default method for estimating difference-in-difference (DiD) with differential timing for years, it is not capable of handling treatments that are rolled out. Therefore, in this replication, we will try to solve two problems from the original Lott and Mustard paper. First, substitute county-level data with state-level data since the laws are implemented on a state level. Second, use alternative approaches that compensate for the downside of TWFE, the methods we would be using are proposed by Callaway & Sant’Anna, Goodman-Bacon, and Sun & Abraham.
